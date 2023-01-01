@@ -1,9 +1,5 @@
 #!/bin/bash
 clear
-#--------------------------
-# SCRIPt SCOTT PRO
-# CANAL TELEGRAM: @scottssh
-#--------------------------
 
 # - Cores
 RED='\033[1;31m'
