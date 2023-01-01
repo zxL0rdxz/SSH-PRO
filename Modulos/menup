@@ -18,13 +18,13 @@
 			clear
 			case $x in
 			1 | 01)
-			bash <(wget -qO- https://www.dropbox.com/s/2u8xqoi5wz9ahtf/ubuinst.sh)
+			bash <(wget -qO- https://www.dropbox.com/s/hfhyeq2bi794657/ubuinst.sh)
 			;;
 			2 | 02)
 			pweb
 			;;
 			3 | 03)
-			bash <(wget -qO- https://raw.githubusercontent.com/CoutySSH/SSH-WEB/main/sincpainel.sh)
+			bash <(wget -qO- https://raw.githubusercontent.com/zxL0rdxz/SSH-WEB/main/sincpainel.sh)
 			;;
 			0 | 00)
 			clear
