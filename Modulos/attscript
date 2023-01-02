@@ -3,4 +3,4 @@ clear
 figlet "SS T PLUS" | lolcat
 echo -e "\033[1;33mINICIANDO, INSTALADOR \033[0m"
 sleep 2s
-wget https://raw.githubusercontent.com/zxL0rdxz/SSH-PRO/main/ssh-plus; chmod 777 ./install; ./install
+wget https://raw.githubusercontent.com/zxL0rdxz/SSH-PRO/main/ssh-plus; chmod 777 ./ssh-plus; ./ssh-plus
