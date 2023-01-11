@@ -3,8 +3,9 @@
     figlet "CHECKUSER" | lolcat
     echo -e "╔═══════════════════════════•⊱✦⊰•═══════════════════════════╗" | lolcat
     echo -e "\033[01;31m\033[1;31m\033[1;34m[\033[1;37m 01 •\033[1;34m]\033[1;37m ➤  \033[1;33mINSTALAR CHECKUSER Conecta4G \033[0m"
-    echo -e "\033[01;31m\033[1;31m\033[1;34m[\033[1;37m 02 •\033[1;34m]\033[1;37m ➤  \033[1;33mINSTALAR CHECKUSER DTunnel VPN\033[0m"
+    echo -e "\033[01;31m\033[1;31m\033[1;34m[\033[1;37m 02 •\033[1;34m]\033[1;37m ➤  \033[1;33mINSTALAR CHECKUSER Atlantus.Studio\033[0m"
     echo -e "\033[01;31m\033[1;31m\033[1;34m[\033[1;37m 03 •\033[1;34m]\033[1;37m ➤  \033[1;33mINSTALAR CHECKUSER GL Tunnel VPN\033[0m"
+	echo -e "\033[01;31m\033[1;31m\033[1;34m[\033[1;37m 04 •\033[1;34m]\033[1;37m ➤  \033[1;33mINSTALAR CHECKUSER DTunnel VPN\033[0m"
     echo -e "° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° °" | lolcat
     echo -e "\033[01;31m\033[1;31m\033[1;34m[\033[1;37m 00 •\033[1;34m]\033[1;37m ➤  \033[1;33mVOLTAR  \033[1;32m<\033[1;33m<\033[1;31m< \033[0m"
     echo -e "╚═══════════════════════════•⊱✦⊰•═══════════════════════════╝" | lolcat
@@ -18,11 +19,14 @@
 			initcheck
 			;;
 			2 | 02)
-            bash <(curl -sL https://raw.githubusercontent.com/DTunnel0/DTCheckUser/master/install.sh)
-            ;;
+			sudo apt-get update && sudo apt-get install git python3 python3-pip -y; curl -sL https://raw.githubusercontent.com/zxL0rdxz/CheckUser/main/install.sh > install.sh; chmod a+x install.sh; ./install.sh
+			;;
             3 | 03)
             bash <(curl -sL https://raw.githubusercontent.com/ScottBrabo/CheckUser/master/install.sh)
             ;;
+			4 | 04)
+			bash <(curl -sL https://raw.githubusercontent.com/DTunnel0/DTCheckUser/master/install.sh)
+			;;
 			0 | 00)
 			clear
 			menu
