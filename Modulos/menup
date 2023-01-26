@@ -2,8 +2,6 @@
     clear
     figlet " PAINEL-WEB" | lolcat
     echo -e "╔═══════════════════════════•⊱✦⊰•═══════════════════════════╗" | lolcat
-    echo -e " \033[1;37mINSTALAR PAINEL WEB APENAS EM SERVIDOR 64 BITS \033[0m"
-    echo -e "╚═══════════════════════════•⊱✦⊰•═══════════════════════════╝" | lolcat
     echo -e " \033[01;31m\033[1;31m\033[1;34m[\033[1;37m 01 •\033[1;34m]\033[1;37m ➩  \033[1;33mINSTALAR PAINEL\033[0m"
 	echo -e "° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° ° °" | lolcat
     echo -e " \033[01;31m\033[1;31m\033[1;34m[\033[1;37m 02 •\033[1;34m]\033[1;37m ➩  \033[1;33mALTERAR PORTA APACHE(PADRAO: 80) \033[0m"
