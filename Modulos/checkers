@@ -26,8 +26,8 @@
 			3 | 03)
 			bash <(curl -sL https://raw.githubusercontent.com/DTunnel0/DTCheckUser/master/install.sh)
 			;;
-                        4 | 04)
-                        sudo apt-get update && sudo apt-get install git python3 python3-pip -y; curl -sL https://raw.githubusercontent.com/zxL0rdxz/CheckUser/main/install.sh > install.sh; chmod a+x install.sh; ./install.sh
+            4 | 04)
+            sudo apt-get update && sudo apt-get install git python3 python3-pip -y; curl -sL https://raw.githubusercontent.com/zxL0rdxz/CheckUser/main/install.sh > install.sh; chmod a+x install.sh; ./install.sh
 			;;
 			0 | 00)
 			clear
