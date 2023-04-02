@@ -1,5 +1,9 @@
 #!/bin/bash
 clear
+#--------------------------
+# SCRIPt SSH-PLUS
+# CANAL TELEGRAM: @TURBONETVPN2023
+#--------------------------
 
 # - Cores
 RED='\033[1;31m'

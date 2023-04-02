@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-#--------@THE_ORION_SCRIPT_PRO-----------#
+#--------@SSH-PLUS-----------#
 source ShellBot.sh
 touch lista
 [[ -z $1 ]] && {
