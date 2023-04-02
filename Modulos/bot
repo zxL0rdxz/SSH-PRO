@@ -4,8 +4,8 @@
 #   DATA ATT: 18 de JuL 2022
 #   DESENVOLVIDO POR: TURBONETPN2023
 #   API SHELLBOT: ORION
-#   CONTATO TELEGRAM: http://t.me/TURBONETVPN2023
-#   CANAL TELEGRAM: http://t.me/TURBONETVPN2023
+#   CONTATO TELEGRAM: http://t.me/zxlordxz
+#   CANAL TELEGRAM: http://t.me/zxlordxz
 #===================================================
 [[ ! -d /etc/SSHPlus ]] && exit 0
 [[ ! -d /etc/bot ]] && exit 0
